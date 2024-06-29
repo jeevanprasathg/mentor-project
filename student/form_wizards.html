@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gentelella Alela! | </title>
+
+  <!-- Bootstrap -->
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+
+  <!-- Custom Theme Style -->
+  <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <div class="navbar nav_title" style="border: 0;">
+            <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>KGiSL -IIM</span></a>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <!-- menu profile quick info -->
+          <div class="profile clearfix">
+            <div class="profile_pic">
+              <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+            </div>
+            <div class="profile_info">
+              <span>Welcome</span>
+              <h2>JEEVAN PRASATH G</h2>
+            </div>
+          </div>
+          <!-- /menu profile quick info -->
+
+          <br />
+
+          <!-- sidebar menu -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <h3>MCA</h3>
+              <ul class="nav side-menu">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="#">View Marks</a></li>
+
+              </ul>
+            </div>
+
+
+          </div>
+          <!-- /sidebar menu -->
+          <!-- --------------------------------------------------------------------------------------------------------- -->
+          <!-- /menu footer buttons -->
+          <!-- <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div> -->
+          <!-- /menu footer buttons -->
+          <!-- --------------------------------------------------------------------------------------------------- -->
+        </div>
+      </div>
+      <!-- /top navigation -->
+
+      <!-- page content -->
+      <div class="right_col" role="main">
+        <div class="">
+          <div class="page-title">
+            <div class="title_left">
+              <h3>STUDENT INFO</h3>
+            </div>
+
+            <div class="title_right">
+              <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>INFORMATION </h2>
+
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+
+
+                  <!-- Smart Wizard -->
+                  <p>This is a basic form wizard example that inherits the colors from the selected scheme.</p>
+                  <div id="wizard" class="form_wizard wizard_horizontal">
+                    <ul class="wizard_steps">
+                      <li>
+                        <a href="#step-1">
+                          <span class="step_no">1</span>
+                          <span class="step_descr">
+                            Step 1<br />
+                            <small>Basic information</small>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#step-2">
+                          <span class="step_no">2</span>
+                          <span class="step_descr">
+                            Step 2<br />
+                            <small>personal information</small>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#step-3">
+                          <span class="step_no">3</span>
+                          <span class="step_descr">
+                            Step 3<br />
+                            <small>Education Qualification </small>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#step-4">
+                          <span class="step_no">4</span>
+                          <span class="step_descr">
+                            Step 4<br />
+                            <small>uploads</small>
+                          </span>
+                        </a>
+                      </li>
+
+                      <!-- <li>
+                        <a href="#step-5">
+                          <span class="step_no">5</span>
+                          <span class="step_descr">
+                            Step 5<br />
+                            <small>lovej</small>
+                          </span>
+                        </a>
+                      </li> -->
+                    </ul>
+                    <div id="step-1">
+                      <form class="form-horizontal form-label-left">
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">First Name <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="first-name" required="required" placeholder="Enter your Name"
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Last Name <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="last-name" name="last-name" required="required"
+                              placeholder="Enter your Initial" class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="rollno">Roll number <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="rollno" required="required" placeholder="Enter Roll No."
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="regno">Register number <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="regno" required="required"
+                              placeholder="Enter University Register No." class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Middle Name / Initial</label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                            </div>
+                          </div> -->
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div id="gender" class="btn-group" data-toggle="buttons">
+                              <label class="btn btn-default" data-toggle-class="btn-primary"
+                                data-toggle-passive-class="btn-default">
+                                <input type="radio" name="gender" value="male"> &nbsp; Male &nbsp;
+                              </label>
+                              <label class="btn btn-primary" data-toggle-class="btn-primary"
+                                data-toggle-passive-class="btn-default">
+                                <input type="radio" name="gender" value="female"> Female
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Of Birth <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required"
+                              type="date">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Student Mobile Number <span
+                              class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" class="form-control col-md-7 col-xs-12"
+                              data-inputmask="'mask' : '(999) 999-9999'">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Student mail id <span
+                              class="required">*</span></label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="email" class="form-control col-md-7 col-xs-12" placeholder="@gmail.com">
+                          </div>
+                        </div>
+
+
+                      </form>
+
+                    </div>
+                    <div id="step-2">
+                      <form class="form-horizontal form-label-left">
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="fname">Father Name <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="rollno" required="required" placeholder="Father Name" class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="mname">Mother Name <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="mname" required="required" placeholder=" Mother Name"
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="foccupation">Father occupation
+                            <span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="moccupation" required="required" placeholder=" Father Occupation"
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="moccupation">Mother occupation
+                            <span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="moccupation" required="required" placeholder=" Mother Occupation"
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="item form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="textarea">Communication Address
+                            <span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <textarea id="caddress" required="required" placeholder="Temporary Address with pincode"
+                              name="textarea" class="form-control col-md-7 col-xs-12"></textarea>
+                          </div>
+                        </div>
+                        <div class="item form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="textarea">Permanent Address
+                            <span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <textarea id="paddress" required="required" placeholder="Permanent Address with pincode"
+                              name="textarea" class="form-control col-md-7 col-xs-12"></textarea>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="income">Annual Income <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="income" required="required" placeholder="eg.. 2,50,000"
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="mobno">Parent mobile number
+                            <span class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="pmobno" required="required" class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+
+
+
+
+
+
+                      </form>
+
+
+
+                    </div>
+                    <div id="step-3">
+                     
+                      <p>
+                        QUALIFICATION DETAILS
+                      </p>
+
+                      <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="x_panel">
+                          <div class="x_title">
+                            <h2>10th Detail</h2>
+
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+                            <br />
+                            <form class="form-horizontal form-label-left">
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="cls">Class <span
+                                    class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="cls" required="required" placeholder="Enter class"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="schoolname">School Name
+                                  <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="schoolname" required="required" placeholder="Enter School Name"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="10mark">10th Mark <span
+                                    class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="10mark" required="required" placeholder="Enter 10th Mark"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="10percentage">10th
+                                  Percentage <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="10percentage" required="required"
+                                    placeholder="Enter 10th percentage" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="10passedout">passed out
+                                  <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="month" id="10passedout" required="required" placeholder="Enter 10th Mark"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="upload10image">Upload certificate<span
+                                    class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="file" id="upload10image" required="required"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="x_panel">
+                          <div class="x_title">
+                            <h2>12th Details</h2>
+
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+                            <br />
+                            <form class="form-horizontal form-label-left">
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="cls">Class <span
+                                    class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="cls" required="required" placeholder="Enter class"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="schoolname">School Name
+                                  <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="schoolname" required="required" placeholder="Enter School Name"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="12mark">12th Mark <span
+                                    class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="12mark" required="required" placeholder="Enter 12th Mark"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="12percentage">12th
+                                  Percentage <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="text" id="12percentage" required="required"
+                                    placeholder="Enter 12th percentage" class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="12passedout">passed out
+                                  <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="month" id="12passedout" required="required" placeholder="Enter 12th Mark"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="upload12image">Upload certificate<span
+                                    class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                  <input type="file" id="upload12image" required="required"
+                                    class="form-control col-md-7 col-xs-12">
+                                </div>
+                              </div>
+
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>UG Details</h2>
+
+                      <div class="clearfix"></div>
+                      <div class="x_content">
+                        <form class="form-horizontal form-label-left">
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="course">Course Name <span
+                                class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" id="course" required="required" placeholder="eg..BSc,BCA,BBA,Bcom"
+                                class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="specilization">specilization
+                              <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" id="specilization" required="required"
+                                placeholder="eg..CS,IT,Maths.physics,PA,CA" class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="collegename">College Name
+                              <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" id="collegename" required="required" placeholder="UG College Name"
+                                class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="uname">University Name<span
+                                class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" id="12mark" required="required" placeholder="eg..Bharthiyar University"
+                                class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ugpercentage">UG Percentage
+                              <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" id="ugpercentage" required="required" placeholder=" UG percentage"
+                                class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ugpercentage">All Clear <span
+                                class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <p>
+                                Yes:
+                                <input type="radio" class="flat" name="clear" id="yes" value="M" checked="" required />
+                                No:
+                                <input type="radio" class="flat" name="clear" id="no" value="F" />
+                              </p>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="arrear">If Arrear <span
+                                class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="number" id="arrear" required="required" placeholder="How many paper"
+                                class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ugpassedout">passed out <span
+                                class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="month" id="ugpassedout" required="required"
+                                class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="uploadugimage">Upload certificate<span
+                                class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="file" id="uploadugimage" required="required"
+                                class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                        </form>
+                      </div>
+
+
+
+                    </div>
+                    <div id="step-4">
+                      <form class="form-horizontal form-label-left">
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="tancet">TANCET<span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <p>
+                              Yes:
+                              <input type="radio" class="flat" name="clear" id="yes" value="M" checked="" required />
+                              No:
+                              <input type="radio" class="flat" name="clear" id="no" value="F" />
+                            </p>
+                          </div>
+                        </div>
+
+                        <!-- <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="other">Other Exam<span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <p>
+                              Yes:
+                              <input type="radio" class="flat" name="clear" id="yes" value="y" checked="" required />
+                              No:
+                              <input type="radio" class="flat" name="clear" id="no" value="n" />
+                            </p>
+                          </div>
+                        </div> -->
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="score">TANCET/Other exam score <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="score" required="required" placeholder="Enter mark/percentage"
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Day Scholar</label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div id="gen" class="btn-group" data-toggle="buttons">
+                              <label class="btn btn-default" data-toggle-class="btn-success"
+                                data-toggle-passive-class="btn-default">
+                                <input type="radio" name="gen" value="y"> &nbsp; Yes &nbsp;
+                              </label>
+                              <label class="btn btn-primary" data-toggle-class="btn-primary"
+                                data-toggle-passive-class="btn-default">
+                                <input type="radio" name="gen" value="n"> No
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Hostallers</label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div id="ge" class="btn-group" data-toggle="buttons">
+                              <label class="btn btn-default" data-toggle-class="btn-success"
+                                data-toggle-passive-class="btn-default">
+                                <input type="radio" name="ge" value="y"> Yes 
+                              </label>
+                              <label class="btn btn-primary" data-toggle-class="btn-primary"
+                                data-toggle-passive-class="btn-default">
+                                <input type="radio" name="ge" value="n"> No
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="other">Day Scholar<span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <p>
+                              Yes:
+                              <input type="radio" class="flat" name="clear" id="yes" value="y" checked="" required />
+                              No:
+                              <input type="radio" class="flat" name="clear" id="no" value="n" />
+                            </p>
+                          </div>
+                        </div> -->
+
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dayscholar"> if Day Scholar
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" id="dayscholar" required="required"
+                                placeholder="Enter location" class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="religion">Religion <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="religion" required="required"
+                              placeholder="eg..INDIAN" class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="caste">Caste <span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="caste" required="required"
+                               class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12" for="uploadimage">Upload Passsport sizeImage<span
+                              class="required">*</span>
+                          </label>
+                          <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="file" id="uploadimage" required="required"
+                              class="form-control col-md-7 col-xs-12">
+                          </div>
+                        </div>
+                      </form>
+                      <h3>Declaraction</h3>
+                      <input type="checkbox" name="declare" id="declare">
+                      <p>I here By that the above Given Informations are truth to my Knowledge</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /page content -->
+
+      <!-- footer content -->
+      <footer>
+        <div class="pull-right">
+          Copy right || all done by <a href="https://colorlib.com">jeevan prasath G</a>
+        </div>
+        <div class="clearfix"></div>
+      </footer>
+      <!-- /footer content -->
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="../vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- FastClick -->
+  <script src="../vendors/fastclick/lib/fastclick.js"></script>
+  <!-- NProgress -->
+  <script src="../vendors/nprogress/nprogress.js"></script>
+  <!-- jQuery Smart Wizard -->
+  <script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+  <!-- Custom Theme Scripts -->
+  <script src="../build/js/custom.min.js"></script>
+
+
+</body>
+
+</html>
